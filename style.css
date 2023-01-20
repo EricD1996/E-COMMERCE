@@ -53,6 +53,19 @@ button.normal{
     transition: 0.2s;
 }
 
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
 body{
     width: 100%;
 }
@@ -313,6 +326,52 @@ body{
     color:white;
 }
 
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/laptopbackground.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size:cover;
+    background-position:center;
+    padding: 30px;
+}
+
+#sm-banner #upcoming{
+    background-image: url("img/background3.jpg");
+}
+
+#sm-banner h4{
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: rgb(161,206,235);
+    color:black;
+}
 
 /*============================== icons ======================== */
 
