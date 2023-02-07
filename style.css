@@ -423,6 +423,8 @@ body{
     display:flex;
     width: 40%;
 }
+
+
 /*============================== icons ======================== */
 
 #cart{
@@ -431,6 +433,10 @@ body{
 
 #logo{
     width: 70px;
+}
+
+#payment{
+    width: 100px;
 }
 
 .feature-icon{
